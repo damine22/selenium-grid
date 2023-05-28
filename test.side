@@ -1,0 +1,105 @@
+{
+  "id": "9869dd13-b5b3-43f3-a7de-a5ed3a7a0e0e",
+  "version": "2.0",
+  "name": "test",
+  "url": "http://34.88.254.158:9030",
+  "tests": [{
+    "id": "26707da3-0916-4ebe-b4d6-215dcbfec499",
+    "name": "ccc",
+    "commands": [{
+      "id": "037f59b1-8999-40a9-91c0-0a42793e6657",
+      "comment": "",
+      "command": "open",
+      "target": "/prweb/app/default/OE7NUuRw1aUsOnd_TlRmOA5tuduRSrqM*/!STANDARD",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27fe6234-e988-4db1-9842-d4ad5fd25507",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d10ceb2a-4f20-45ac-af09-ba118b185469",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-form-container > #login > #credentials > #credentialsForm #txtUserID",
+      "targets": [
+        ["css=#login-form-container > #login > #credentials > #credentialsForm #txtUserID", "css:finder"],
+        ["xpath=(//input[@id='txtUserID'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='credentialsForm']/div/input)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a7fe04-2a82-42ee-9582-378340687e2b",
+      "comment": "",
+      "command": "type",
+      "target": "css=#login-form-container > #login > #credentials > #credentialsForm #txtUserID",
+      "targets": [
+        ["css=#login-form-container > #login > #credentials > #credentialsForm #txtUserID", "css:finder"],
+        ["xpath=(//input[@id='txtUserID'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='credentialsForm']/div/input)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "06c723d4-0587-4eda-bc54-ecff1bdf2013",
+      "comment": "",
+      "command": "type",
+      "target": "css=#login-form-container > #login > #credentials > #credentialsForm #txtPassword",
+      "targets": [
+        ["css=#login-form-container > #login > #credentials > #credentialsForm #txtPassword", "css:finder"],
+        ["xpath=(//input[@id='txtPassword'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='credentialsForm']/div[2]/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "b73a47a5-99ea-4a99-b7c1-a64b9ed8ff00",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-form-container > #login > #credentials > #submit_row #loginButton",
+      "targets": [
+        ["css=#login-form-container > #login > #credentials > #submit_row #loginButton", "css:finder"],
+        ["xpath=(//span[@id='loginButton'])[2]", "xpath:attributes"],
+        ["xpath=(//button[@id='sub']/span)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div[4]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cb9bf11-04d3-4b02-be30-7d0881821404",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-form-container > #login > #credentials > #registration_row_ #create-account-web",
+      "targets": [
+        ["css=#login-form-container > #login > #credentials > #registration_row_ #create-account-web", "css:finder"],
+        ["xpath=(//span[@id='create-account-web'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='registration_row_']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div[6]/a/span[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1138",
+      "windowTimeout": 2000
+    }, {
+      "id": "ead0b87e-6f51-47b2-83c9-6a3bf832bd83",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1138}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "98e78cec-5860-4048-8ea1-33925ce8d232",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["26707da3-0916-4ebe-b4d6-215dcbfec499"]
+  }],
+  "urls": ["http://34.88.254.158:9030/"],
+  "plugins": []
+}

@@ -1,0 +1,214 @@
+{
+  "id": "e5ea0b2f-b8d5-4664-a26a-637593ad903c",
+  "version": "2.0",
+  "name": "pro1",
+  "url": "http://34.88.254.158:9030",
+  "tests": [{
+    "id": "cf03716c-91dd-4c83-961c-1a9a2c0a492f",
+    "name": "T1",
+    "commands": [{
+      "id": "ad1f3303-b600-442a-abb0-64122b61afb8",
+      "comment": "",
+      "command": "open",
+      "target": "/prweb/app/default/OE7NUuRw1aUsOnd_TlRmOA5tuduRSrqM*/!STANDARD",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cb9833d-b2e6-4c4f-b033-42cd9f8c1021",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "793x735",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b60aa988-4e1d-4752-b528-c375e8743cd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-form-container > #login > #credentials > #credentialsForm #txtUserID",
+      "targets": [
+        ["css=#login-form-container > #login > #credentials > #credentialsForm #txtUserID", "css:finder"],
+        ["xpath=(//input[@id='txtUserID'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='credentialsForm']/div/input)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d35e350c-9cab-4b64-8f62-8ac01a9b49ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-form-container > #login > #credentials > #submit_row #loginButton",
+      "targets": [
+        ["css=#login-form-container > #login > #credentials > #submit_row #loginButton", "css:finder"],
+        ["xpath=(//span[@id='loginButton'])[2]", "xpath:attributes"],
+        ["xpath=(//button[@id='sub']/span)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div[4]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7214c483-43e2-4fec-a1a1-d47aba2a92f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Node.js')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffcaf51f-7143-4e4d-b602-d0c7b89ee175",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-divider-pipe > li:nth-child(4) > a",
+      "targets": [
+        ["css=.list-divider-pipe > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Docs')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/docs')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2bfe12a-afd3-4f32-aaaf-0be713e70d70",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active:nth-child(4) > a",
+      "targets": [
+        ["css=.active:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Docs')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/docs')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9bf56c2-62d8-41a1-9d11-f80371fd0171",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active:nth-child(4) > a",
+      "targets": [
+        ["css=.active:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Docs')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/docs')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ebca114-a273-42af-abf7-68cd39a7d7d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=v20.2.0 API",
+      "targets": [
+        ["linkText=v20.2.0 API", "linkText"],
+        ["css=nav:nth-child(1) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'v20.2.0 API')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nodejs.org/dist/latest-v20.x/docs/api')]", "xpath:href"],
+        ["xpath=//main/div/nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'v20.2.0 API')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3db46f7d-c415-436f-b449-8bdc5f23d580",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test runner",
+      "targets": [
+        ["linkText=Test runner", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(46) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Test runner')])[2]", "xpath:link"],
+        ["xpath=//div[@id='apicontent']/ul[2]/li[46]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'test.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/ul[2]/li[46]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4cd1791-ec95-410a-a6d1-cc32232beb5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Watch mode",
+      "targets": [
+        ["linkText=Watch mode", "linkText"],
+        ["css=ul:nth-child(2) > li li:nth-child(7) > .stability_1 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Watch mode')])[2]", "xpath:link"],
+        ["xpath=//details[@id='toc']/ul/li/ul/li[7]/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#watch-mode')])[2]", "xpath:href"],
+        ["xpath=//details/ul/li/ul/li[7]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e755a220-be79-476c-a29f-11a018f83dbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='apicontent']/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0b50587-26e6-49d7-9b37-4311ee6d8c51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pinned-header",
+      "targets": [
+        ["css=.pinned-header", "css:finder"],
+        ["xpath=//div[@id='gtoc']/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Node.js v20.2.0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89d19fdd-89a8-46f1-90a2-704ea0badc6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.picker-header:nth-child(2) > a",
+      "targets": [
+        ["css=.picker-header:nth-child(2) > a", "css:finder"],
+        ["xpath=//div[@id='gtoc']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e16fd1a-2e07-4f48-bb1d-e3851f49bce9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test runner execution model",
+      "targets": [
+        ["linkText=Test runner execution model", "linkText"],
+        ["css=ul:nth-child(1) li:nth-child(8) > ul a", "css:finder"],
+        ["xpath=//a[contains(text(),'Test runner execution model')]", "xpath:link"],
+        ["xpath=//div[@id='gtoc']/ul/li[2]/div/div/ul/li/ul/li[8]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#test-runner-execution-model')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test runner execution model')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "227c562b-a583-4f8b-a69c-8fc79ea6508e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.with-39-chars > .mjs",
+      "targets": [
+        ["css=.with-39-chars > .mjs", "css:finder"],
+        ["xpath=//div[@id='apicontent']/section[10]/pre/code", "xpath:idRelative"],
+        ["xpath=//section[10]/pre/code", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4b322f56-295a-4b17-8bee-578e1565894e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cf03716c-91dd-4c83-961c-1a9a2c0a492f"]
+  }],
+  "urls": ["http://34.88.254.158:9030/"],
+  "plugins": []
+}
