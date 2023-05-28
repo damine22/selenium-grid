@@ -1,0 +1,47 @@
+{
+  "id": "bb4621d2-fd12-4f2e-b3d7-705eb8e8cefe",
+  "version": "2.0",
+  "name": "test1",
+  "url": "http://34.88.254.158:9030",
+  "tests": [{
+    "id": "84d74321-f404-40a7-a02d-8d9be2f16469",
+    "name": "test1",
+    "commands": [{
+      "id": "1adbcbc3-98e0-46ae-9742-cb3e491168cc",
+      "comment": "",
+      "command": "open",
+      "target": "/prweb/app/default/OE7NUuRw1aUsOnd_TlRmOA5tuduRSrqM*/!STANDARD",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b645107-8a7a-45d9-9fe7-ced906138991",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c386c1b-b396-4ae8-b1a5-2a1de0de7a0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-form-container #language",
+      "targets": [
+        ["css=#login-form-container #language", "css:finder"],
+        ["xpath=(//div[@id='language'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='login']/div[2])[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d7309113-9f18-413a-88ee-862407e79548",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["84d74321-f404-40a7-a02d-8d9be2f16469"]
+  }],
+  "urls": ["http://34.88.254.158:9030/"],
+  "plugins": []
+}
